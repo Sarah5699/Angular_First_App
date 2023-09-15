@@ -1,0 +1,58 @@
+<div style="margin-top: 82px; min-height: calc(100vh - 120px);" class="d-flex justify-content-center align-items-center text-white">
+    <div class="text-center">
+        <div class="text-center pt-4" style="color: #2C3E50;">
+            <h2 class="text-uppercase mb-3 fs-1 fw-bolder">
+                start Framework
+            </h2>
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <div class="line me-3" style="background-color: #2C3E50;"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="line ms-3" style="background-color: #2C3E50;"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex gap-3 mb-3">
+                <div (click)="cardClicked('poert1')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/poert1.png">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+                <div (click)="cardClicked('port2')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/port2.png">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+                <div (click)="cardClicked('port3')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/port3.png" alt="">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-3 mb-3">
+                <div (click)="cardClicked('port2')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/port2.png" alt="">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+                <div (click)="cardClicked('port3')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/port3.png" alt="">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+                <div (click)="cardClicked('poert1')" class="col-4 rounded-3 overflow-hidden position-relative">
+                    <img class="img-fluid" src="../../assets/Images/poert1.png" alt="">
+                    <div class="layer position-absolute start-0 w-100 top-0 h-100 d-flex justify-content-center align-items-center">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 86px" id="model" (click)="modelClicked($event)" class="position-fixed start-0 w-100 top-0 h-100 bg-primary bg-opacity-25 justify-content-center align-items-center d-none">
+            </div>
+        </div>
+    </div>
+</div>

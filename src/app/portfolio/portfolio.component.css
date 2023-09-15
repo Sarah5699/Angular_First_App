@@ -1,0 +1,15 @@
+.line{
+    height: 4px;
+    width: 80px;
+}
+.layer{
+    visibility: hidden; 
+}
+.col-4{
+    cursor: pointer;
+}
+.col-4:hover .layer{
+    background-color: #1abc9c;
+    opacity: 0.6;
+    visibility: visible;
+}
